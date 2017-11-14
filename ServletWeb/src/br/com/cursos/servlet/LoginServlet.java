@@ -24,12 +24,8 @@ public class LoginServlet extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		PrintWriter writer = resp.getWriter();
-		writer.write("<html><body> Fix um Post </body></html>");
 	}
 	
-}
+	}
 	
-	
-	
-
 

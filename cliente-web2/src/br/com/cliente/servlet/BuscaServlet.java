@@ -30,7 +30,8 @@ public class BuscaServlet extends HttpServlet {
 		
 		ClienteDao clienteDao = new ClienteDao();
 		List<Cliente> clientes = clienteDao.obterTodosClientes();
-		
+				
+		out.write("<ul>");
 		out.write("<ul>");
 		
 		for(int indice = 0; indice < clientes.size(); indice++) {
