@@ -18,7 +18,6 @@ public class ClienteDao {
 		clientes = new ArrayList<Cliente>();
 	
 				
-		//clientes.add(new Cliente(1, "Daniel ", "Barbosa ", 30, "99999"));
 		clientes.add(new Cliente(1, "Alexsandro ", "Lázaro da Silva ", 44, "34-9999-1111"));
 		
 		}
