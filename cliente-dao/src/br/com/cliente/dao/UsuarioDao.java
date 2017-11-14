@@ -28,7 +28,7 @@ public class UsuarioDao implements IDefaultDao {
 	}
 
 	@Override
-	public List<?> select() {
+	public static List<?> select() {
 		return this.mockUsuarios;
 	}
 
